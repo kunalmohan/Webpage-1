@@ -1,0 +1,393 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url("images/back1.jpeg");
+	background-size: cover;
+	padding-bottom: 5em;
+}
+
+.container{
+	max-width: 95%;
+	margin: auto;
+}
+
+.nav{
+	list-style: none;
+	float: right;
+	display: flex;
+	flex-direction: row;
+}
+
+.nav li{
+	margin: 0.7em;
+	padding: 1em;
+	margin-top: 3em;
+}
+
+.nav li a{
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto", sans serif;
+	padding: 1em;
+}
+
+.nav li a:hover{
+	border: 1px solid white;
+}
+
+.logo{
+	display: inline-block;
+	margin-left: 4%;
+}
+
+.logo img{
+	height: 3.5em;
+	margin: 1em;
+	margin-top: 2em;
+}
+
+.cont-head{
+	display: inline-block;
+	margin-left: 10em;
+	margin-top: 8em;
+}
+
+.cont-head span{
+	text-align: center;
+	vertical-align: middle;
+	background-color: #F1632E;
+	-moz-box-shadow: 0.25px 0.25px 4px 5px rgba(0,0,0,.15);
+	-webkit-box-shadow: 0.25px 0.25px 4px 5px rgba(0,0,0,.15);
+	box-shadow: 0.25px 0.25px 4px 5px rgba(0,0,0,.15);
+	padding: 0.5em;
+	font-size: 2em;
+	color: white;
+	font-family: Arial;
+	font-weight: 100;
+}
+
+.content{
+	margin-top: 8em;
+	padding: 0.9em;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	margin-left: 12.5em;
+	justify-content: center;
+	background-color: white;
+	width: 65%;
+	padding-bottom: 1em;
+}
+
+.content div{
+	width: 50%;
+	padding: 1.6em;
+	margin: 1.1em;
+	display: inline-block;
+	color: grey;
+	line-height: 1.2em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.content div span{
+	font-family: "Courier New", Charcoal, sans-serif;
+	font-size: 1.2em;
+}
+
+.section1{
+	background-color: #030000;
+	color: white;
+}
+
+.about{
+	display: flex;
+	flex-direction: row;
+	padding: 3em;
+	width: 70%;
+}
+
+.about div{
+	text-align: center;
+	padding: 1.5em;
+	width: 27%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1em;
+}
+
+.about div span{
+	font-size: 1.01em;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.about div img{
+	height: 3.5em;
+}
+
+.client_list{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 70%;
+	justify-content: center;
+}
+
+.client_list img{
+	height: 5.5em;
+	margin: 2.5em;
+	margin-left: 1.8em;
+	margin-right: 1.8em;
+}
+
+.client{
+	font-family: Impact, Charcoal, sans-serif;
+} 
+
+.section2{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url("images/back2.jpg");
+	background-size: cover;
+	color: #C8C6C6;
+	padding-bottom: 5em;
+}
+
+.head2{
+	display: inline-block;
+	margin-left: 10em;
+	margin-top: 6em;
+}
+
+.head2 span{
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	background-color: #F1632E;
+	box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+	padding: 0.5em;
+	font-size: 2.5em;
+	font-family: "Courier New", sans-serif;
+	font-weight: 100;
+}
+
+.whatwedo{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 3em;
+	justify-content: center;
+}
+
+.whatwedo div{
+	margin: 2em;
+	width: 12em;
+	background-color: #F1632E;
+	padding: 2.5em;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+}
+
+.whatwedo div img{
+	height: 7em;
+}
+
+.txt{
+	font-size: 1.2em;
+}
+
+.list{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 1em;
+	background-color: #F1632E;
+	box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+	width: 67%;
+}
+
+.list div{
+	text-align: left;
+	line-height: 2em;
+	padding: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	width: 33%;
+}
+
+.section3{
+	background-color: #030000;
+	padding-bottom: 4em;
+}
+
+.head3{
+	display: inline-block;
+	margin-left: 15em;
+	margin-top: 6em;
+}
+
+.head3 span{
+	text-align: center;
+	vertical-align: middle;
+	background-color: #F1632E;
+	box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+	padding: 0.5em;
+	color: white;
+	font-family: "Courier New", sans-serif;
+	font-size: 2em;
+	font-weight: 100;
+}
+
+.roles{
+	background-color: white;
+	padding: 4em;
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	margin-top: -1.5em;
+}
+
+.roles div{
+	justify-content: center;
+	align-content: center;
+	width: 50%;
+	line-height: 2em;
+}
+
+#roles1{
+	text-align: left;
+}
+
+#roles2 span{
+	line-height: 4em;
+	border: 1px solid black;
+	text-align: center;
+	padding: 1em;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+.head4{
+	margin-top: 3em;
+	color: white;
+	background-color: #F1632E;
+	box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+	padding: 0.3em;
+	display: inline-block;
+	margin-left: 29.5em;
+	font-size: 2em;
+	font-family: "Courier New", sans-serif;
+	font-weight: 100;
+}
+
+.contact{
+	height: 22em;
+	background-color: #121111;
+	display: flex;
+	flex-direction: row;
+	padding-left: 13em;
+	margin-top: -1em;
+}
+
+.message{
+	width: 15em;
+	line-height: 2.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+	height: 100%;
+	color: #C8C6C6;
+	margin-top: 0.5em;
+}
+
+.message input{
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid #C8C6C6;
+	border-radius: 6px;
+	height: 2em;
+	color: #C8C6C6;
+}
+
+.message textarea{
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid #C8C6C6;
+	border-radius: 6px;
+	color: #C8C6C6;
+	padding: 0.5em;
+}
+
+#sb{
+	background-color: #4a4848;
+	border: 0;
+	border-radius: 2px;
+	height: 2.6em;
+}
+
+.map img{
+	height: 100%;
+}
+
+.address{
+	width: 15em;
+	color: #C8C6C6;
+	margin-top: 2em;
+	margin-left: 2em;
+	line-height: 1.2em;
+}
+
+.address span{
+	color:  #F1632E;
+}
+
+.address img{
+	height: 2em;
+	margin-top: 1.5em;
+}
+
+footer{
+	background-color: #030000;
+}
+
+.container1{
+	max-width: 95%;
+	margin: auto;
+}
+
+.foot{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+
+.foot li{
+	margin: 0.7em;
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.foot li a{
+	text-decoration: none;
+	width: 4em;
+	color: #C8C6C6;
+	font-family: "Roboto", sans serif;
+	padding: 1em;
+}
+
+
+.logo1 img{
+	height: 2em;
+	margin: 1em;
+	margin-top: -1em;
+	margin-bottom: 0em;
+}
+
+.container1 center{
+	color: #C8C6C6;
+	padding-bottom: 2em;
+}
